@@ -1,0 +1,247 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+.parent {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient( 
+        90deg
+         ,#d6d6d6,#A39AF9);
+    color: white;
+}
+.cmg {
+    font-size: 28px;
+    font-weight: 600;
+  
+    padding: 25px;
+}
+i.fa.fa-bell-o {
+    font-size: 32px;
+    padding: 25px;
+}
+.selectbar {
+    display: flex;
+    border: 1px gray solid;
+    width: 250px;
+    height: 50px;
+    /* padding: 20px; */
+    margin: 20px;
+    
+}
+
+.opt1 {
+    padding: 15px;
+    /* border: 1px solid gray; */
+    width: 50%;
+    border-bottom: 1px gray si;
+    /* border-bottom: 1px gray solid; */
+    border-right: 1px gray solid;
+    text-align: center;
+}
+.selected {
+    background: #0014ff8f;
+    color: white;
+}
+.name {
+    text-align: center;
+    /* color: bisque; */
+    color: #0014ff8f;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card {
+    /* border: 1px; */
+    width: 70%;
+    margin: auto;
+    border: 1px gray solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px grey;
+}
+.dis {
+   
+    display: flex;
+}
+.imgs {
+    /* width: 30px; */
+    /* height: 30px; */
+    margin: 20px;
+}
+img {
+    width: 180px;
+    height: 150px;
+}
+.val {
+    margin: 20px;
+}
+.a {
+    margin: 10px;
+}
+.Price.a {
+    font-size: 20px;
+    color: darkslategray;
+}
+.buttones {
+    border: 1px gray solid;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    background-color: #0014ff8f;
+}
+.hide {
+    display: none ;
+}
+.products.dis {
+    justify-content: space-evenly;
+}
+.cardp.shadow {
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px;
+    box-shadow: 3px 6px grey;
+}
+.ab {
+    padding-left: 10px;
+    color: gray;
+}
+.city
+{
+    padding-left: 10px;
+}
+img.imges {
+    width: 200px;
+    height: 200px;
+}
+img.imicon {
+    width: 32;
+    width: 48px;
+    height: 48px;
+    margin: 15px;
+}
+.discount {
+    text-decoration: line-through;
+    color: gray;
+}
+img.star {
+    width: 16px;
+    height: 16px;
+}
+.perc {
+    /* padding-left: 10px; */
+    border: 1px solid gray;
+    margin-left: 10px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    /* background-color: blue; */
+    background-color: #0014ff8f;
+}
+.parentes {
+    float: center;
+    position: absolute;
+    left: 250;
+    left: 420px;
+    top: 100px;
+    z-index: 1000;
+    background-color: gray;
+    padding: 5px;
+    color: #FFFFFF;
+    width: 40%;
+    /* height: 300px; */
+    /* display: flex; */
+    text-align: center;
+    /* margin: auto; */
+}
+.delivery {
+    color: #ffffffbf;
+    font-size: 15px;
+}
+.welcome {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: white;
+}
+.signin {
+    margin-top: 10px;
+    font-weight: 400;
+    color: white;
+}
+.email {
+    margin-top: 30px;
+}
+input[type="email"] {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+input[type="password"] {
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.button {
+    margin-top: 15px;
+    font-weight: 900;
+    border: 0px solid;
+    height: 40px;
+    width: 310px;
+    background-color: #ff5e00de;
+    /* text-align: justify; */
+    margin: auto;
+    padding-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.skip {
+    margin-top: 20px;
+    color: white;
+    font-weight: 900;
+}
+.fg {
+    margin-top: 20px;
+    color: white;
+    font-weight: 900;
+}
+.parent1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.p1 {
+    color: white;
+    font-weight: 900;
+}
+.p2 {
+    color: darkorange;
+    font-weight: 900;
+}
+.last.line {
+    margin-top: 20px;
+    color: white;
+    font-weight: 900;
+}
+img.close {
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+.c{
+    justify-content: space-between;
+}
